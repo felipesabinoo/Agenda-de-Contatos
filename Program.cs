@@ -8,6 +8,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Lista de contatos");
         List<Contato> contatos = new List<Contato>();
         Menu(contatos);
         List<Contato> contatosCarregados = CarregarContatos();
