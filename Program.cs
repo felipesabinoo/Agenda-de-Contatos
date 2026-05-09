@@ -9,7 +9,8 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Lista de contatos");
-        Console.WriteLine();
+        Console.WriteLine("Verifique abaixo.");
+        
         List<Contato> contatos = new List<Contato>();
         Menu(contatos);
         List<Contato> contatosCarregados = CarregarContatos();
